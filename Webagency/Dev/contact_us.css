@@ -68,7 +68,7 @@
     margin-bottom: 30px;
 }
 
-textarea,#Email,#Msg,#phone,#Company,#Name {
+#area,#Email,#Msg,#phone,#Company,#Name {
     margin-left: 10px;
 }
 #Msg{
