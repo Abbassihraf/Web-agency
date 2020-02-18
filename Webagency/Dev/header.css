@@ -20,7 +20,7 @@
 .header__logo {
     display: inline-block;
     width: 120px;
-    margin: 40px;
+    margin: 25px;
 }
 
 .header__h {
@@ -83,7 +83,7 @@ i {
     font-size: 30px;
     cursor: pointer;
     display: none;
-    margin-right: 40px;
+    margin-right: 10px;
 
 }
 
