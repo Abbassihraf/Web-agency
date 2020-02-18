@@ -1,9 +1,3 @@
-header,
-.counting {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
 .header__background {
     background-image: url(img/background-desktop.png);
     background-size: cover;
@@ -68,7 +62,7 @@ header,
     float: right;
     line-height: 150px;
     margin-right: 100px;
-    
+
 }
 
 .header__menu a,
@@ -80,7 +74,7 @@ i {
     transition: 0.4s;
     font-weight: bolder;
 
-    
+
 }
 
 .header__show__btn,
