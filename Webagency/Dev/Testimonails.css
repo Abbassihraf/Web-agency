@@ -6,7 +6,6 @@
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     
     
 }
@@ -125,7 +124,7 @@
 
     }
 }
-@media (min-width:1220px){
+@media (min-width:1200px){
   
     .testimonails-container{
         display: grid;
