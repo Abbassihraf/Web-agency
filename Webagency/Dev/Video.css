@@ -18,8 +18,9 @@
     padding: 0% 0% 0% 5%; 
 }
 video{
-    padding-left: 5%;
-}
+padding-bottom: 40px;
+display: block;
+margin: 0 auto;}
 @media (min-width:900px){
     .video_section{
         display: grid;
