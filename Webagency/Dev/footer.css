@@ -1,151 +1,105 @@
-footer .footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    place-items: center;
-    font-family: 'Montserrat', sans-serif;
-}
-footer{
-    
+.footer-container{
     background-color: #112d4e;
-    
-    
-}
-.footer-p{
     color: white;
-    font-size: 20px;
-    line-height: 1.4em;
-}
-.tgv p {
-    font-size: 15px;
-    color: #ffffff;
-    padding-top: 5%;
-    width: 90%;
-    margin-top: 2%;
 }
 
-.footer-tgv img {
+.footer-container img{
+    display: block;
     width: 30%;
-    height: 30%;
-    
-    margin
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
 }
 
-.child2 {
-    grid-column: 2;
-    color: white;
-    line-height: 2em;
-    margin-left: 9%;
+.footer__agenceinfo__logo{
+    text-align: center;
 }
 
-.footer-child2 .contact {
-    color: #f9f7f7;
-    padding-bottom: 5%;
-    text-decoration: underline;
-    font-weight: bolder;
+.footer-infos{
+    padding-top: 30px;
     font-size: 20px;
+    line-height: 1.6;
+    padding-bottom: 10px;
 }
-.footer-child2 span {
+
+.social__media{
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+
+.footer-contactinfo{
+    text-align: center;
+}
+
+.cnt__title{
+    color: #dbe2ef;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.f_cnt_i{
     font-weight: bolder;
 }
-.child3 {
-    grid-column: 3;
-    margin-left: 20%;
-    justify-content: center;
+
+.footer-contactinfo{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.newsletter_btn{
     text-align: center;
-    
-    bottom: 2%;
+    padding-top: 30px;
 }
 
-.footer-child3 .follow {
-   font-size: 20px;
-   font-weight: bolder;
-    color: #ffffff;
-    margin-right: 20%;
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 10%;
-    padding-left: 17%;
+.newsletter{
+    display: block;
+    border-style:solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
-
-.child3 .socail-media {
-    color: #ffffff;
-    font-size: 50px;
-    margin-top: 4%;
+.para__news{
+    line-height: 1.4;
+    font-size: 17px;
+    padding-bottom: 20px;
+    font-weight: 600;
 }
-
-.right {
-    grid-column: 1/3;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: #ffffff;
-    font-size: 15px;
-    margin: 0;
-    text-align: center;
-}
-
-.logo {
+.news__mail{
+    background-color: transparent;
+    border: 2px solid;
     color: white;
-    font-size: 30px;
-    margin-top: 10%;
-}
-
-.footer-tgv{
-    align-content: center;
     text-align: center;
+    padding-top: 12px;
+    padding-left: 8px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
-.oma {
-    box-sizing: border-box;
+.subsribe__btn{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f72af; 
+    border: none;
     color: white;
-    border: 2px solid #ffffff;
-    width: 270px;
-    height: 230PX;
-    justify-content: center;
-}
-
-.footer-child3 #mail {
-    box-sizing: border-box;
+    padding: 15px 32px;
     text-align: center;
-    border: 2px solid #ffffff;
-    width: 90%;
-    height: 25%;
-    margin-top: 10%;
-    padding-top: 5%;
-    margin-left: 5%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.footer-child3 button {
-    border: 2px solid #3f72af;
-    background-color: #3f72af;
-    margin-top: 3%;
-     margin-left: 5%;
-     margin-bottom: 5%;
-    color: white;
-    width: 90%;
-    height: 25%;
-    
-}
-.footer-child2 .infos{
-    font-size: 20px;
-    line-height: 1.3em;
-}
-
-#join {
-    padding-top: 5%;
+.copyright{
     text-align: center;
-
-}
-.tsv{
-    color: #ffffff;
-    line-height: 2em;
-}
-.contact{
-    color: #ffffff;
-    margin-left: 10%;
-    
-}
-.infos{
-    color: white;
-    margin-left: 10%;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 40px;
 }
