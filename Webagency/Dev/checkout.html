@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Document</title>
+</head>
+<body>        
+
+        <section class='container'>
+                <form class='modal'>
+                  <div class='hdr'>
+                    <h1>Payment of $150</h1>
+                    <div class='card-type'>
+                      <a class='card-active' href='#'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Amex.png'>
+                      </a>
+                      <a class='card' href='#'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Discover.png'>
+                      </a>
+                      <a class='card' href='#'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Visa.png'>
+                      </a>
+                      <a class='card' href='#'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/MC.png'>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='info'>
+                    <div class='formulaire'>
+                        <div class="name_on_card">
+                          <label class="">Name on card</label>
+                          <input id="inp" type='text'>
+                      </div>
+                      <div class='card_number'>
+                          <label class="" for=''>Card Number</label>
+                          <input maxlength='16' id="inp" type='number'>
+                        </div>
+                        <div class='expiry_date'>
+                          <label for=''>Expiry Date</label>
+                          <input id="inp" type='month'>
+                        </div>
+                        <div class='CVS'>
+                          <label for=''>CVS</label>
+                          <input  id="inp" type='number'>
+                        </div>
+                  <div class='complete_pay'>
+                    <a><button class='pay'>Complete Payment</button></a>
+                  </div>
+              </div>
+              </div>
+                  </section>
+</body>
+</html>
