@@ -7,14 +7,80 @@
         <link rel="stylesheet" href="Testimonails.css">
         <link rel="stylesheet" href="Team.css">
       
+        <link rel="stylesheet" href="pricing.css">
+        <link rel="stylesheet" href="contact_us.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <title>Youweb</title>
     </head>
     <body>
         <!-----------------------------début de la partie header par"Khadija"---------------------------->
-        <header></header>
+        <header class="header__background">
+            <div class="header__navbar">
+                <img class="header__logo" src="img//logo.png" alt="">
+                <input type="checkbox" id="header__chk">
+                <label for="header__chk" class="header__show__btn">
+                    <i class="fa fa-bars"></i>
+                </label>
+
+                
+                <lu class="header__menu">
+                    <a href="#">home</a>
+                    <a href="#">services</a>
+                    <a href="#">testimonials</a>
+                    <a href="#">portfolio</a>
+                    <a href="#">team</a>
+                    <a href="#">contact</a>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-behance"></i>
+                    <label for="header__chk" class="header__hide__btn">
+                        <i class="fa fa-times"></i>
+                    </label>
+                </lu>
+
+            </div>  
+            <div class="header__section">
+
+                <h1 class="header__h"><b>YOUWEB</b></h1>
+                <p class="header__p"> You partner in web devlopment and graphic design in YOUSSUOFIA<p>
+                        <button class="header__button">QUOTE REQUEST</button>
+            </div>
+
+        </header>
         <!-----------------------------------///fin de la partie header///------------------------------------>
         <!---------------------------début de la section compteur par"Khadija"---------------------------->
-        <section></section>
+        <section class="counting">
+            <div class="counting__container">
+                <div class="counting__1">
+                    <div class="counting__num">480</div>
+                    <p class="counting__p">Satisfied customers</p> 
+                </div>
+                <div class="counting__2">
+                    <div class="counting__num">3850</div>
+                    <p class="counting__p">Graphic Design & Branding</p> 
+                </div>
+                <div class="counting__3">
+                    <div class="counting__num">57</div>
+                    <p class="counting__p">Years of cumulative experience</p>
+                </div>
+                <div class="counting__4">
+                    <div class="counting__num">14999</div>
+                    <p class="counting__p">Cups of coffee & even more!</p> 
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(".counting__num").counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            </script>
+        </section>
         <!----------------------------------///fin de la section compteur///----------------------------------->
         <!------------------------------début de web agency et video par"ilyas"---------------------------->
         <section></section>
@@ -132,10 +198,111 @@
           </section>
         <!------------------------------------///fin de la section team ///------------------------------------>
         <!-----------------------début de la section pricing par "Achraf"---------------------->
-        <section></section>
+        <section class="pricing">
+
+    <div class="pricing__title">
+        <h1>pricing</h1>
+    </div>
+    <div class="card1">
+        <div class="card__regular">
+            <p>REGULAR
+                <br>
+                    <span class="dollar">$100</span>
+                    <br>
+                        <span class="month">
+                            per month</span>
+                    </p>
+                    <ul>
+                        <li>2 Websites</li>
+                        <li>10 Emails</li>
+                        <li>100GB storage</li>
+                        <li>1 Account</li>
+                    </ul>
+                    <a href="checkout.html">
+                        <button>buy now</button>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="card__regular">
+                    <p>PRO PACK
+                        <br>
+                            <span class="dollar">$150</span>
+                            <br>
+                                <span class="month">
+                                    per month</span>
+                            </p>
+
+                            <ul>
+                                <li>3 Websites</li>
+                                <li>15 Emails</li>
+                                <li>200GB storage</li>
+                                <li>1 Account</li>
+                            </ul>
+                            <button>buy now</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card3">
+                        <div class="card__regular">
+                            <p>ULTIMATE
+                                <br>
+                                    <span class="dollar">$250</span>
+                                    <br>
+                                        <span class="month">
+                                            per month</span>
+                                    </p>
+
+                                    <ul>
+                                        <li>6 Websites</li>
+                                        <li>20 Emails</li>
+                                        <li>500GB storage</li>
+                                        <li>3 Account</li>
+                                    </ul>
+                                    <button>buy now</button>
+
+                                </div>
+                            </div>
+
+                        </section>
         <!------------------------------------///fin de section pricing ///------------------------------------>
         <!-----------------------début de la  section Contact us  par "Achraf"---------------------->
-        <section></section>
+        <section id="6" class="Contact">
+            <div class="container__contact">
+                <div class="Contact__title">
+                            <h1><span class="us">Contact US </span><span class="today">today</span> </h1>
+                </div>
+                <form>
+                <p>In order to launch your project , contact our agency and an expert will get in touch with you as soon as possible.</p>
+                <div id="Name">
+                    <label>Name</label>
+                    <input type="text" required>
+                </div>
+                <div id="Company">
+                    <label>Company</label>
+                    <input type="text">
+                </div>
+                <div id="Email">
+                    <label>Email Address</label>
+                    <input type="email" required>
+                </div>
+                <div id="phone">
+                    <label>Phone Number</label>
+                    <input type="text" required>
+                </div>
+                <div id="Msg">
+                    <label>Message</label>
+                    <textarea id="area" style="height:150px" required></textarea>
+                </div>
+                <div class="sub">
+                <button>submit</button>
+            </div>
+            </form>
+        </div>
+    </section>
         <!------------------------------------///fin de section contact us ///------------------------------------>
         <!-----------------------début de la  section footer  par "oumaima"---------------------->
         <footer ></footer>
