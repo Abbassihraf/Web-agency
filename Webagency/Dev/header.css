@@ -21,7 +21,7 @@
 .header__logo {
     display: inline-block;
     width: 120px;
-    margin: 40px;
+    margin: 25px;
 }
 
 .header__h {
@@ -32,8 +32,36 @@
 
 .header__p {
     color: white;
+    width: 35em;
     font-size: 20px;
     text-align: center;
+    overflow: hidden;transform: translateY(50%);
+    white-space: nowrap;
+    top:50%;
+    margin: 0 auto;
+    border-right: 4px solid #3F72AF;
+}
+.anityp {
+    animation: typewriter 4s steps(63) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(63) infinite alternate;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 35em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: #3F72AF;
+    }
+    to {
+          border-right-color: transparent;
+    }
 }
 
 .header__button {
@@ -84,7 +112,7 @@ i {
     font-size: 30px;
     cursor: pointer;
     display: none;
-    margin-right: 40px;
+    margin-right: 10px;
 
 }
 
