@@ -27,7 +27,7 @@
     text-align: center;
     width: 100%;
     height: 140px;
-    margin-top: 30%;
+    margin-top: 23%;
     justify-content: center;
    
 }
@@ -114,6 +114,16 @@
     .testimonials-sdf3 p{
         line-height: 1.5em;
     }
+    .testimonials-sdf2 img{
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+        padding-left: 11%;
+        padding-bottom: 20%;
+        margin: 0;
+
+    }
 }
 @media (min-width:1220px){
   
@@ -178,8 +188,8 @@
     }
     .testimonials-sdf2 img{
         box-sizing: border-box;
-        width: 105px;
-        height: 105px;
+        width: 115px;
+        height: 115px;
         justify-self: center;
         padding-left: 11%;
         padding-bottom: 20%;
