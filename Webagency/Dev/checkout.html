@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
     <title>Document</title>
 </head>
 <body>        
+    <header id="1" class="header__background scrollspy">
+        <div class="header__navbar">
+            <img class="header__logo" src="img//logo.png" alt="">
+            <input type="checkbox" id="header__chk">
+            <label for="header__chk" class="header__show__btn">
+                <i class="fa fa-bars"></i>
+            </label>
 
+            
+            <lu class="header__menu">
+                <a href="#1">home</a>
+                <a href="#2">services</a>
+                <a href="#3">testimonials</a>
+                <a href="#4">portfolio</a>
+                <a href="#5">team</a>
+                <a href="#6">contact</a>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-behance"></i>
+                <label for="header__chk" class="header__hide__btn">
+                    <i class="fa fa-times"></i>
+                </label>
+            </lu>
+
+        </div> 
         <section class='container'>
                 <form class='modal'>
                   <div class='hdr'>
-                    <h1>Payment of $150</h1>
+                    <h1>Total Amount $150</h1>
                     <div class='card-type'>
                       <a class='card-active' href='#'>
                         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/Amex.png'>
@@ -32,25 +60,79 @@
                     <div class='formulaire'>
                         <div class="name_on_card">
                           <label class="">Name on card</label>
-                          <input id="inp" type='text'>
+                          <input id="inp" type='text' required>
                       </div>
                       <div class='card_number'>
                           <label class="" for=''>Card Number</label>
-                          <input maxlength='16' id="inp" type='number'>
+                          <input minlength="8" maxlength='19' id="inp" type='text' required>
                         </div>
                         <div class='expiry_date'>
                           <label for=''>Expiry Date</label>
-                          <input id="inp" type='month'>
+                          <input id="inp" type='month'required>
                         </div>
                         <div class='CVS'>
                           <label for=''>CVS</label>
-                          <input  id="inp" type='number'>
+                          <input  id="inp" type='text' minlength="3" maxlength='3'required>
                         </div>
                   <div class='complete_pay'>
-                        <a href="/Webagency/Dev/index.html"><button class='pay'>Complete Payment</button></a>
+                        <a href="index.html"><button class='pay'>Complete Payment</button></a>
                   </div>
               </div>
               </div>
                   </section>
+                  <footer >
+                      <div class="footer-container">
+          
+                          <div class="footer__agenceinfo__logo">
+             
+                              <img src="img/logo.png" alt="logo">
+             
+                              <div class="footer-infos">
+                                  YouWeb is a web agency<br>
+                                  specializing in the design<br>
+                                  of websites and the creation<br>
+                                  of visual identity for your<br>business.
+                              </div>
+             
+                              <div class="social__media">
+                                  <i class="fa fa-facebook"></i>
+                                  <i class="fa fa-pinterest-p"></i>
+                                  <i class="fa fa-behance"></i>
+                              </div>
+             
+                          </div>
+             
+                          <div class="footer-contactinfo">
+             
+                              <div class="cnt__title">CONTACT INFORMATION</div>
+                              <div class="cnt__info">
+                              <span class="f_cnt_i">Adresse :</span>  Boulevard Moulay<br>Youssef,
+                              Youssoufia Maroc<br>
+                              <span class="f_cnt_i">Fax :</span> +212 524 00 00 00<br>
+                              <span class="f_cnt_i">Phone :</span> +21266666165<br>
+                              <span class="f_cnt_i">Mail :</span> info@gmail.com<br>
+                          </div>
+                          </div>
+          
+                          <div class="newsletter_btn">
+             
+             
+                              <div class="cnt__title">NEWSLETTER</div>
+                              <div class="newsletter">
+                                  <div class="para__news">Join our mailing list to receive<br>all the news and announcements</div>
+                                  <div>
+                                  <textarea class="news__mail" placeholder="YOUR MAIL HERE"></textarea></div>
+                                  <button  class="subsribe__btn">SUBSCRIBE</button>
+                              </div>
+             
+             
+             
+             
+             
+                          </div>
+                      
+                      <p class="copyright">© 2020 All right reserved,YouWeb</p>
+                  </div>
+                  </footer>
 </body>
 </html>
