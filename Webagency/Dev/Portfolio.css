@@ -1,0 +1,40 @@
+.section-portfolio { 
+    background-color: #112d4e;
+    margin: 0px;
+    padding: 0px;
+}
+.portfolio_main { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+      }
+.portfolio_title{
+    font-family: 'Montserrat', sans-serif;
+    color: #f9f7f7;
+    font-weight: 900;
+    text-decoration: underline;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px 0px;
+    padding: 30px;
+    font-size: 50px; 
+    }
+.portfolio_img{
+width: 80%;
+height: 70%;
+cursor: pointer;
+transition: 0.4s;
+margin: 11%;
+}
+.portfolio_img:hover {
+transform: scale(0.9, 0.9);
+box-shadow: 5px 5px 30px 15px #112d4e, 
+  -5px -5px 30px 15px #112d4e;
+}
+
+
+
+
+
