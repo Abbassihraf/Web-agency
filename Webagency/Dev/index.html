@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="Portfolio.css">
         <link rel="stylesheet" href="pricing.css">
         <link rel="stylesheet" href="contact_us.css">
+        <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="section3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
@@ -22,7 +23,7 @@
     </head>
     <body>
         <!-----------------------------début de la partie header par"Khadija"---------------------------->
-        <header class="header__background">
+        <header id="1" class="header__background">
             <div class="header__navbar">
                 <img class="header__logo" src="img//logo.png" alt="">
                 <input type="checkbox" id="header__chk">
@@ -32,12 +33,12 @@
 
                 
                 <lu class="header__menu">
-                    <a href="#">home</a>
-                    <a href="#">services</a>
-                    <a href="#">testimonials</a>
-                    <a href="#">portfolio</a>
-                    <a href="#">team</a>
-                    <a href="#">contact</a>
+                    <a href="#1">home</a>
+                    <a href="#2">services</a>
+                    <a href="#3">testimonials</a>
+                    <a href="#4">portfolio</a>
+                    <a href="#5">team</a>
+                    <a href="#6">contact</a>
                     <i class="fa fa-facebook"></i>
                     <i class="fa fa-linkedin"></i>
                     <i class="fa fa-twitter"></i>
@@ -51,7 +52,7 @@
             <div class="header__section">
 
                 <h1 class="header__h"><b>YOUWEB</b></h1>
-                <p class="header__p"> You partner in web devlopment and graphic design in YOUSSUOFIA<p>
+                <p class="header__p"> You partner in web development and graphic design in YOUSSOUFIA<p>
                         <button class="header__button">QUOTE REQUEST</button>
             </div>
 
@@ -126,8 +127,8 @@
                         for your website and put <br>
                         in place the best technical <br>
                         implementation.
-    
-    
+
+
                     </p>
                 </div>
     
@@ -216,6 +217,7 @@
         <!---------------------------début de la section testimonials par "kamal"------------------------------>
         <section class="testimonails">
           <div class="testimonails-container"> 
+        
                 <div class="testimonials-sdf1">
                   <h1 class="test-header">TESTIMONIALS</h1>
                   <P class="test-para">They trusted our agency & We make our customers happy!</P>
@@ -269,7 +271,7 @@
         </section>
         <!------------------------------------///fin de la section portfolio ///------------------------------------>
         <!-----------------------début de la section team par "kamal"---------------------->
-        <section class="team">
+        <section id="5" class="team">
               
          
               <div class="container-team">
@@ -392,7 +394,9 @@
                                 <li>200GB storage</li>
                                 <li>1 Account</li>
                             </ul>
-                            <button>buy now</button>
+                    <a href="checkout.html">
+                        <button>buy now</button>
+                    </a>
 
                         </div>
                     </div>
@@ -413,7 +417,9 @@
                                         <li>500GB storage</li>
                                         <li>3 Account</li>
                                     </ul>
-                                    <button>buy now</button>
+                                    <a href="checkout.html">
+                                            <button>buy now</button>
+                                        </a>
 
                                 </div>
                             </div>
@@ -456,7 +462,60 @@
     </section>
         <!------------------------------------///fin de section contact us ///------------------------------------>
         <!-----------------------début de la  section footer  par "oumaima"---------------------->
-        <footer ></footer>
+        <footer >
+            <div class="footer-container">
+
+                <div class="footer-tgv">
+   
+                    <img src="img/logo.png" alt="logo">
+   
+                    <div class="footer-p">
+                        YouWeb is a web agency<br>
+                        specializing in the design<br>
+                        of websites and the creation<br>
+                        of visual identity for your<br>business
+                    </div>
+   
+                    <div class="logo">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-behance"></i>
+   
+                    </div>
+   
+                </div>
+   
+                <div class="footer-child2">
+   
+                    <div class="contact">CONTACT INFORMATION</div>
+                    <div class="infos">
+                   <span>Adresse</span> : Boulevard Moulay Youssef,<br>
+                    Youssoufia Maroc<br>
+                    Fax : +212 524 00 00 00<br>
+                    Phone : +21266666165<br>
+                    Mail : info@gmail.com<br>
+                </div>
+                </div>
+   
+   
+                <div class="footer-child3">
+   
+   
+                    <div class="follow">NEWSLETTER</div>
+                    <div class="oma">
+                        <div id="join">Join our mailing list to receive<br>all the news and announcements</div>
+                        <div id="mail">YOUR MAIL HERE</div>
+                        <button>SUBSCRIBE</button>
+                    </div>
+   
+   
+   
+   
+   
+                </div>
+            </div>
+            <p class="right">Copyright 2020 © YouWeb, All right reserved</p>
+        </footer>
         <!------------------------------------------///fin de la section footer par ""oumaima"///--------------------------------------->
     </body>
 </html>
