@@ -1,0 +1,53 @@
+/* team */
+
+.team{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3F72AF;
+}
+
+.container-team-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: center;  
+}
+.team-xts1{
+    padding-right: 1%;
+}
+.team-xts2{
+    padding-right: 1%;
+}
+.team-xts3{
+    padding-right: 1%;
+}
+.team-xts4{
+    padding-right: 1%;
+}
+
+.team-header{
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    
+}
+.team-under-img{
+    border: 2px solid #dbe2ef;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 23px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding-top: 5%;
+        background-color: #DBE2EF;
+}
+.container-team img {
+    width: 100%;
+   
+}
