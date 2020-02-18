@@ -1,0 +1,146 @@
+
+.section3-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+.section3 { 
+    background-color: #dbe2ef;
+   
+
+}
+
+.our { 
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-decoration: underline;
+font-size: 4.5em;
+padding-top: 24px;
+margin: 0;
+margin-bottom: 32px;
+
+}
+
+
+
+.website, .shopper, .marketing, .target, .send, .mobile, .seo, .manager {
+    text-align: center;
+    width: 20%;
+    border-radius: 3px;
+	
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            margin: 10px;
+
+
+}
+
+.img-center { 
+
+width: 128px;
+height: 128px;
+margin: 16px;
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section3-main {
+
+        display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    background-color: #dbe2ef;
+  
+    
+
+    }
+    .our {
+
+        
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2.5em;
+        padding-top: 48px;
+
+    } 
+
+    .website, .shopper, .marketing, .target, .send, .mobile, .seo, .manager {
+        text-align: center;
+        width: 80%;
+        border-radius: 3px;
+        
+        -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+                box-shadow: 0 0 15px rgba(0,0,0,0.3);
+                margin: 10px;
+    
+    
+    }
+
+    .website.p {
+        text-align: center;
+        margin: 16px 16px ;
+        
+        }
+        
+
+  }
+
+
+  
+
+@media only screen and (max-width: 960px) {
+    .section3-main {
+
+        display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    background-color: #dbe2ef;
+  
+    
+
+    }
+    .our {
+
+        
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2.5em;
+        padding-top: 48px;
+
+    } 
+
+    .website, .shopper, .marketing, .target, .send, .mobile, .seo, .manager {
+        text-align: center;
+        width: 80%;
+        border-radius: 3px;
+        
+        -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+                box-shadow: 0 0 15px rgba(0,0,0,0.3);
+                margin: 10px;
+    
+    
+    }
+
+    .website.p {
+        text-align: center;
+        margin: 16px 16px ;
+        
+        }
+        .send,.mobile,.seo,.manager,.target,.marketing,.shopper {
+
+            text-align: center;
+
+        }
+
+    
+  }
+
+  
