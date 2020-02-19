@@ -21,7 +21,7 @@
     </head>
     <body>
         <!-----------------------------début de la partie header par"Khadija"---------------------------->
-        <header class="header__background">
+        <header id="1" class="header__background scrollspy">
             <div class="header__navbar">
                 <img class="header__logo" src="img//logo.png" alt="">
                 <input type="checkbox" id="header__chk">
@@ -87,7 +87,7 @@
         <!------------------------------début de web agency et video par"ilyas"---------------------------->
         <section>
             <section>
-                <div class="video_section">
+                <div class="video_section scrollspy" >
                     <div class="text">
                     <h1 class="video_title">WEB COMMUNCATION AGENCY</h1>
                     <p class="video_para">Founded in 2004, by Fayçal Toujri, the Youweb agency specializing 
@@ -111,7 +111,7 @@
         </section>
         <!-----------------------------------///fin de web agency et video///------------------------------------->
         <!-----------------------------début de la section services par "omar"---------------------------->
-        <section id="2" class="section3">
+        <section id="2" class="section3 scrollspy">
             <h1 class="our">Our Services </h1>
             <div class="section3-main">
     
@@ -213,7 +213,7 @@
         </section>
         <!------------------------------------///fin de la section services parties///------------------------------------>
         <!---------------------------début de la section testimonials par "kamal"------------------------------>
-        <section class="testimonails">
+        <section id="3" class="testimonails scrollspy">
           <div class="testimonails-container"> 
                 <div class="testimonials-sdf1">
                   <h1 class="test-header">TESTIMONIALS</h1>
@@ -243,7 +243,7 @@
         <!-----------------------début de la section portfolio par "Ilyas"---------------------->
         <section>
             <section>
-                <section id="4" class="section-portfolio">
+                <section id="4" class="section-portfolio scrollspy">
                     <h1 class="portfolio_title">PORTFOLIO</h1>
                     <div class="portfolio">
                             
@@ -348,7 +348,7 @@
           </section>
         <!------------------------------------///fin de la section team ///------------------------------------>
         <!-----------------------début de la section pricing par "Achraf"---------------------->
-        <section class="pricing">
+        <section class="pricing scrollspy">
 
     <div class="pricing__title">
         <h1>pricing</h1>
@@ -420,7 +420,7 @@
                         </section>
         <!------------------------------------///fin de section pricing ///------------------------------------>
         <!-----------------------début de la  section Contact us  par "Achraf"---------------------->
-        <section id="6" class="Contact">
+        <section id="6" class="Contact scrollspy">
             <div class="container__contact">
                 <div class="Contact__title">
                             <h1><span class="us">Contact US </span><span class="today">today</span> </h1>
@@ -456,6 +456,79 @@
         <!------------------------------------///fin de section contact us ///------------------------------------>
         <!-----------------------début de la  section footer  par "oumaima"---------------------->
         <footer ></footer>
+        <footer >
+            <div class="footer-container">
+
+                <div class="footer__agenceinfo__logo">
+   
+                    <img src="img/logo.png" alt="logo">
+   
+                    <div class="footer-infos">
+                        YouWeb is a web agency<br>
+                        specializing in the design<br>
+                        of websites and the creation<br>
+                        of visual identity for your<br>business.
+                    </div>
+   
+                    <div class="social__media">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-behance"></i>
+                    </div>
+   
+                </div>
+   
+                <div class="footer-contactinfo">
+   
+                    <div class="cnt__title">CONTACT INFORMATION</div>
+                    <div class="cnt__info">
+                    <span class="f_cnt_i">Adresse :</span>  Boulevard Moulay<br>Youssef,
+                    Youssoufia Maroc<br>
+                    <span class="f_cnt_i">Fax :</span> +212 524 00 00 00<br>
+                    <span class="f_cnt_i">Phone :</span> +21266666165<br>
+                    <span class="f_cnt_i">Mail :</span> info@gmail.com<br>
+                </div>
+                </div>
+
+                <div class="newsletter_btn">
+   
+   
+                    <div class="cnt__title">NEWSLETTER</div>
+                    <div class="newsletter">
+                        <div class="para__news">Join our mailing list to receive<br>all the news and announcements</div>
+                        <div>
+                        <textarea class="news__mail" placeholder="YOUR MAIL HERE"></textarea></div>
+                        <button class="subsribe__btn">SUBSCRIBE</button>
+                    </div>
+   
+   
+   
+   
+   
+                </div>
+            
+            <p class="copyright">© 2020 All right reserved,YouWeb</p>
+        </div>
+        </footer>
         <!------------------------------------------///fin de la section footer par ""oumaima"///--------------------------------------->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script>
+          $(document).ready(function(){
+      
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+              disableWeekends: true,
+              yearRange: 3
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+      
+          });
+        </script>
     </body>
 </html>
