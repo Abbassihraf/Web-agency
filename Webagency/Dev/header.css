@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -33,6 +34,7 @@
     color: white;
     font-size: 20px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .header__button {
@@ -189,6 +191,11 @@ i:hover,
         right: 0;
     }
 
+}
+@media only screen and (max-width:1038px) and (min-width:1024px){
+.header__menu{
+    margin-right: 0px;
+}
 }
 
 @media(max-width:375px) {
