@@ -1,5 +1,5 @@
 .header__background {
-    background-image: url(img/background-desktop.png);
+    background-image: url(/Webagency/Dev/img/background-desktop.png);
     background-size: cover;
     height: 760px;
     background-position: center;
@@ -224,7 +224,7 @@ i:hover,
     }
 
     .header__background {
-        background-image: url(img/background-mobile.png);
+        background-image: url(/Webagency/Dev/img/background-mobile.png);
         background-repeat: no-repeat;
         background-position: right;
     }
