@@ -211,6 +211,11 @@ i:hover,
     .header__h{
         font-size: 50px;
     }
+    .header__logo{
+        height: 60px;
+        width: 60px;
+        margin: 40px;
+    }
 
     .counting__container {
         display: flex;
