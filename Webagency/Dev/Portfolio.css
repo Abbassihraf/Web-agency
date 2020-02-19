@@ -11,19 +11,18 @@
     justify-content: center;
       }
 .portfolio_title{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     color: #f9f7f7;
     font-weight: 900;
     text-decoration: underline;
     margin: 0;
     text-align: center;
     margin-top: 10px 0px;
-    padding: 30px;
     font-size: 50px; 
     }
 .portfolio_img{
-width: 80%;
-height: 70%;
+width: 90%;
+height: 80%;
 cursor: pointer;
 transition: 0.4s;
 margin: 11%;

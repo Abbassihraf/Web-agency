@@ -6,7 +6,6 @@
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     
     
 }
@@ -125,7 +124,7 @@
 
     }
 }
-@media (min-width:1220px){
+@media (min-width:1200px){
   
     .testimonails-container{
         display: grid;
@@ -188,8 +187,8 @@
     }
     .testimonials-sdf2 img{
         box-sizing: border-box;
-        width: 115px;
-        height: 115px;
+        width: 100px;
+        height: 100px;
         justify-self: center;
         padding-left: 11%;
         padding-bottom: 20%;
