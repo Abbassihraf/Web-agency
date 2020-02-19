@@ -13,8 +13,8 @@ Réaliser une interface utilisateur web statique et adaptable (niveau 3)
 Développer une interface utilisateur web dynamique (niveau 1)
 
 # Modalité de travail
-Travail Collaboratif (groupe de 6)
+Travail Collaboratif (groupe de 6 jours)
 Durée 8 jours
 
 # Livrables
-Site Web reponsive, fonctionnel et hibergé
+Site Web responsive, fonctionnel et hibergé.
