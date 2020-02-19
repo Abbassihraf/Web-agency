@@ -14,9 +14,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    /* background-color: brown; */
-    /* position: fixed; */
 }
+
 
 .header__logo {
     display: inline-block;
@@ -139,8 +138,9 @@ i:hover,
 }
 
 @media(max-width:1024px) {
-
-
+    .fixed__menu{
+        visibility: hidden;
+    }
     .counting__num {
         color: #3f72af;
         font-size: 35px;
@@ -173,10 +173,6 @@ i:hover,
 
     }
 
-    /* .header__a ,
-    .header__a i{
-        color: black;
-    } */
 
     .header__menu a {
         display: block;
