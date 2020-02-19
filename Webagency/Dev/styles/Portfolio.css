@@ -18,9 +18,8 @@
     margin: 0;
     text-align: center;
     font-size: 40px; 
-    padding-top: 50px;
-    padding-bottom: 50px;
-  
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .portfolio_img{
     width: 270px;
@@ -34,8 +33,6 @@
 .portfolio_img:hover {
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px #112d4e, -5px -5px 30px 15px #112d4e;     
-}
-@media (min-width:540px) (max-width:700px){
 }
 @media (min-width:500px){
   .section-portfolio { 
@@ -76,9 +73,3 @@
     box-shadow: 5px 5px 30px 15px #112d4e, -5px -5px 30px 15px #112d4e;     
 }
 }
-
-
-
-
-
-
