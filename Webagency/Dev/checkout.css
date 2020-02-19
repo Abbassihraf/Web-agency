@@ -7,6 +7,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .hdr{
     background-color: #3f72af;
     text-align: center;
@@ -14,6 +16,9 @@ body{
     color: white;
 }
 
+.hdr h1{
+    padding-bottom: 20px;
+}
 .card-type{
     padding-bottom: 20px;
 }
@@ -72,9 +77,12 @@ body{
     }
     div.info{
         display: grid;
-        grid-template-columns: 1fr% 1fr%;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 100% 100% 100%;
 
+    }
+    .header__menu{
+        visibility: hidden;
     }
     div.card_number{
         display: block;
@@ -107,6 +115,18 @@ body{
         color: black;
         background-color: white;
         border: 2px solid;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .header__logo{
+        visibility: hidden;
     }
 }
 
