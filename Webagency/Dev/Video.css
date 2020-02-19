@@ -1,6 +1,5 @@
 .video_section{
     background-color: #112d4e;
-    /* font-family: 'Montserrat', sans-serif; */
     color: #f9f7f7;
 }
 .video_title{
@@ -18,9 +17,10 @@
     padding: 0% 0% 0% 5%; 
 }
 video{
-padding-bottom: 40px;
-display: block;
-margin: 0 auto;}
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+}
 @media (min-width:900px){
     .video_section{
         display: grid;
@@ -51,4 +51,4 @@ margin: 0 auto;}
         font-size: 100%;
         width: 85%;
     }
-    }
+}

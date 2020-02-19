@@ -9,29 +9,27 @@
     flex-direction: row;
     justify-content: space-around;
     justify-content: center;
-      }
+}
 .portfolio_title{
-    /* font-family: 'Montserrat', sans-serif; */
     color: #f9f7f7;
     font-weight: 900;
     text-decoration: underline;
     margin: 0;
     text-align: center;
-    margin-top: 10px 0px;
-    padding: 30px;
-    font-size: 50px; 
-    }
+    font-size: 40px; 
+}
 .portfolio_img{
-width: 90%;
-height: 80%;
-cursor: pointer;
-transition: 0.4s;
-margin: 11%;
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
+    transition: 0.4s;
+    justify-content: center;
+    align-items: center;
+  justify-items: center;
 }
 .portfolio_img:hover {
-transform: scale(0.9, 0.9);
-box-shadow: 5px 5px 30px 15px #112d4e, 
-  -5px -5px 30px 15px #112d4e;
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px #112d4e, -5px -5px 30px 15px #112d4e;     
 }
 
 
