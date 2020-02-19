@@ -55,12 +55,13 @@
 .team-under-img i{
     color: #112D4E;
     padding: 0;
+    padding-bottom: 10%;
 }
 .team-cme{
     font-size: 29px;
     font-weight: bolder;
 }
 .team-under-img p{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bolder;
 }
