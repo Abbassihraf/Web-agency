@@ -158,9 +158,13 @@
         
     }
     .copyright{
-        text-align: start;
+        text-align: center;
         padding-left: 40px;
-        font-size: 24px;
+        font-weight: lighter;
+        font-size: 12px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-top: 50px;
     }
 }
 @media only screen and (min-width: 768px){
@@ -282,7 +286,6 @@
         .copyright{
             text-align: start;
             padding-left: 50px;
-            font-size: 24px;
         }
     }
 }
