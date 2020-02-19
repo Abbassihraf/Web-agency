@@ -17,4 +17,4 @@ Travail Collaboratif (groupe de 6 jours)
 Durée 8 jours
 
 # Livrables
-Site Web responsive, fonctionnel et hibergé.
+Site Web responsive, fonctionnel et hébergé.
