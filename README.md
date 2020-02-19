@@ -4,17 +4,23 @@ Vous trouverez tous les éléments nécessaires dans le dossier /img. Les élém
 Il existe également un fichier style-guide.md, qui contient les informations dont vous aurez besoin, telles que la palette de couleurs et les polices.
 
 # Compétences requises
-Maquetter une application (niveau 2)
+Maquetter une application (niveau 2) 
+
 Réaliser une interface utilisateur web statique et adaptable (niveau 2)
 
 # Compétences visées
 Maquetter une application (niveau 3)
+
 Réaliser une interface utilisateur web statique et adaptable (niveau 3)
+
 Développer une interface utilisateur web dynamique (niveau 1)
 
 # Modalité de travail
 Travail Collaboratif (groupe de 6 jours)
+
 Durée 8 jours
 
 # Livrables
-Site Web responsive, fonctionnel et hébergé.
+Site Web responsive, fonctionnel 
+
+hébergé : https://youweb.netlify.com/
