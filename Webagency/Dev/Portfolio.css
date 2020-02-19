@@ -34,9 +34,6 @@
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px #112d4e, -5px -5px 30px 15px #112d4e;     
 }
-@media (min-width:540px) (max-width:700px){
-
-}
 @media (min-width:500px){
   .section-portfolio { 
     background-color: #112d4e;
@@ -75,10 +72,4 @@
     transform: scale(0.9, 0.9);
     box-shadow: 5px 5px 30px 15px #112d4e, -5px -5px 30px 15px #112d4e;     
 }
-
-
-
-
-
-
-
+}
