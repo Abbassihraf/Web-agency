@@ -7,7 +7,6 @@
 .container-team-card{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
    justify-content: center;  
 }
 .team-xts1{
