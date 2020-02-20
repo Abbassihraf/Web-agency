@@ -1,0 +1,291 @@
+.footer-container{
+    background-color: #112d4e;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-container img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.footer__agenceinfo__logo{
+    text-align: center;
+}
+
+.footer-infos{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.social__media{
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+
+.footer-contactinfo{
+    text-align: center;
+}
+
+.cnt__title{
+    color: #dbe2ef;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.f_cnt_i{
+    font-weight: bolder;
+}
+
+.footer-contactinfo{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.newsletter_btn{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.newsletter{
+    display: block;
+    border-style:solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.para__news{
+    line-height: 1.4;
+    font-size: 17px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.news__mail{
+    background-color: transparent;
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 8px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subsribe__btn{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f72af; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 1440px){
+    .footer__agenceinfo__logo img{
+        width: 30%;
+        margin: 0px;
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+    }
+    .footer__agenceinfo__logo{
+        text-align: left;
+        padding-left: 50px;
+    }
+    .social__media{
+        padding-top: 20px;
+    }
+    .footer-infos{
+        font-size: 24px;
+    }
+
+    .footer-contactinfo{
+        text-align: start;
+        padding-top: 60px;
+        
+    }
+    .cnt__title{
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    .cnt__info{
+        font-size: 24px;
+        padding-top: 20px;
+        padding-left: 40px;
+        text-align: start;
+    }
+    .newsletter_btn{
+        padding-top: 60px;
+        text-align: start;
+
+    }
+    .para__news{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .news__mail, .subsribe__btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .copyright{
+        text-align: center;
+        padding-left: 40px;
+        font-weight: lighter;
+        font-size: 12px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+    }
+    .footer__agenceinfo__logo img{
+        width: 40%;
+        margin: 0px;
+    }
+    .footer__agenceinfo__logo{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .social__media{
+        padding-top: 20px;
+    }
+    .footer-infos{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .footer-container br{
+        display: none;
+    }
+
+    .footer-contactinfo{
+        text-align: start;
+        padding-top: 60px;
+        
+    }
+    .footer-contactinfo br{
+        display: inline;
+    }
+    .cnt__title{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .cnt__info{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 20px;
+        text-align: start;
+    }
+    .newsletter_btn{
+        padding-top: 60px;
+        text-align: start;
+
+    }
+    .para__news{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .news__mail, .subsribe__btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .copyright{
+        text-align: start;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    @media only screen and (min-width: 1024px){
+        .footer__agenceinfo__logo img{
+            width: 30%;
+            margin: 0px;
+        }
+    
+        .footer-container{
+            display: grid;
+            grid-template-columns: 33% 34% 33%;
+        }
+        .footer__agenceinfo__logo{
+            text-align: left;
+            padding-left: 50px;
+        }
+        .social__media{
+            padding-top: 20px;
+        }
+        .footer-infos{
+            font-size: 24px;
+        }
+    
+        .footer-contactinfo{
+            text-align: start;
+            padding-top: 60px;
+            
+        }
+        .cnt__title{
+            font-size: 24px;
+            padding-left: 40px;
+        }
+        .cnt__info{
+            font-size: 24px;
+            padding-top: 20px;
+            padding-left: 40px;
+            text-align: start;
+        }
+        .newsletter_btn{
+            padding-top: 50px;
+            text-align: start;
+    
+        }
+        .para__news{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        .news__mail, .subsribe__btn{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .copyright{
+            text-align: start;
+            padding-left: 50px;
+        }
+    }
+}

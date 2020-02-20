@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #dbe2ef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.hdr{
+    background-color: #3f72af;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.hdr h1{
+    padding-bottom: 20px;
+}
+.card-type{
+    padding-bottom: 20px;
+}
+
+.card-type a{
+    padding-left: 10px;
+}
+
+.formulaire{
+    display: grid;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.info label{
+    display: block;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.complete_pay{
+    text-align: center;
+}
+
+#inp{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #112d4e;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.pay{
+    background-color: #112d4e;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.complete_pay{
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 1440px){
+    .container{
+        margin-bottom: 20px;
+        height: 75%;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    div.info{
+        display: grid;
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 100% 100% 100%;
+
+    }
+    .header__menu{
+        visibility: hidden;
+    }
+    div.card_number{
+        display: block;
+        grid-column: 2/3;
+    }
+    .complete_pay{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #inp{
+        width: 80%;
+        height: 50px;
+        font-size: 24px;
+        font-weight: 500;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label{
+        font-size: 24px;
+        padding-left: 50px;
+    }
+    .pay{
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: 40px;
+        width: 40%;
+    }
+    .pay:hover{
+        color: black;
+        background-color: white;
+        border: 2px solid;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .header__logo{
+        visibility: hidden;
+    }
+}
+
+
+
+
+

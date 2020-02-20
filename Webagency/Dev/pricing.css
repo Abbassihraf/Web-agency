@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pricing{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dbe2ef;
+    width: 100%;
+    padding-bottom: 32px;
+    font-weight: 600;
+}
+
+.card1{
+    background-color: white;
+    margin:20px 40px;
+    padding: 30px;
+    border-width: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15); 
+    
+}
+
+.pricing__title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.card__regular{
+    text-align: center;
+}
+
+.card__regular ul{
+    padding: 0;
+    list-style: none;
+
+}
+
+.card__regular li {
+    padding: 4px;
+}
+.dollar{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.month{
+    font-size: 14px;
+}
+
+
+
+.card1 button{
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid;
+    padding: 15px 56px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+
+.card2{
+    background-color: #3f72af;
+    margin:20px 40px;
+    padding: 30px;
+    color: white;
+    border-width: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15); 
+}
+
+.card2 button{
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid;
+    padding: 15px 56px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.card3{
+    background-color: white;
+    margin:20px 40px;
+    padding: 30px;
+    border-width: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+    box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15); 
+}
+
+.card3 button{
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid;
+    padding: 15px 56px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+
+
+@media only screen and (min-width: 1440px){
+    .pricing{
+        font-size: 24px;
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: 20% 90%;
+    }
+    .pricing__title{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-weight: bolder;
+        font-size: 48px;        
+    }
+    .card1{
+        grid-column: 1/2;
+        grid-row: 2/3;        
+        margin-left: auto;
+        margin-right: auto;
+
+       }
+    .card2{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+    .card3{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 75%;
+    }
+
+    .card1 button:hover{
+        background-color: #3f72af;
+        color: white;
+    }
+
+    .card2 button:hover{
+        background-color: #112d4e;
+        color: white;
+    }
+
+    .card3 button:hover{
+        background-color: #3f72af;
+        color: white;
+    }
+
+    .card1:hover{
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+        box-shadow: 0px 0px 10px 1px #112d4e;
+        background-color: #3f72af;
+        color: white;
+    }
+    .card2:hover{
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 10px 1px rgb(255, 23, 23);
+        box-shadow: 0px 0px 10px 1px #112d4e;
+        background-color: #112d4e;
+        color: #dbe2ef;
+    }
+    .card3:hover{
+        -webkit-box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+        box-shadow: 0px 0px 10px 1px #112d4e;
+        background-color: #3f72af;
+        color: white;
+    }
+    .pricing button{
+        padding:20px 60px
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .pricing{
+        font-size: 22px;
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: 20% 90%;
+    }
+    .pricing__title{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-weight: bolder;
+        font-size: 30px;        
+    }
+    .card1{
+        grid-column: 1/2;
+        grid-row: 2/3;        
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 70%;
+       }
+    .card2{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 70%;
+
+    }
+    .card3{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 70%;
+    }
+
+    .pricing button{
+        padding:20px 60px
+    }
+
+
+}
+
+
+
+

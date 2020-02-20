@@ -4,38 +4,525 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="contact_us.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="Portfolio.css">
+        <link rel="stylesheet" href="pricing.css">
+        <link rel="stylesheet" href="section3.css">
+        <link rel="stylesheet" href="Team.css">
+        <link rel="stylesheet" href="Testimonails.css">
+        <link rel="stylesheet" href="Video.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <title>Youweb</title>
     </head>
     <body>
         <!-----------------------------début de la partie header par"Khadija"---------------------------->
-        <header></header>
+        <header id="1" class="header__background scrollspy">
+            <div class="header__navbar">
+                <img class="header__logo" src="img//logo.png" alt="">
+                <input type="checkbox" id="header__chk">
+                <label for="header__chk" class="header__show__btn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                            
+                <lu class="header__menu">
+                    <a href="#1">home</a>
+                    <a href="#2">services</a>
+                    <a href="#3">testimonials</a>
+                    <a href="#4">portfolio</a>
+                    <a href="#5">team</a>
+                    <a href="#6">contact</a>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-behance"></i>
+                    <label for="header__chk" class="header__hide__btn">
+                        <i class="fa fa-times"></i>
+                    </label>
+                </lu>
+
+            </div>  
+            <div class="header__section">
+
+                <h1 class="header__h"><b>YOUWEB</b></h1>
+                <p class="header__p"> You partner in web devlopment and graphic design in YOUSSOUFIA<p>
+                        <button class="header__button">QUOTE REQUEST</button>
+            </div>
+
+        </header>
         <!-----------------------------------///fin de la partie header///------------------------------------>
         <!---------------------------début de la section compteur par"Khadija"---------------------------->
-        <section></section>
+        <section class="counting">
+            <div class="counting__container">
+                <div class="counting__1">
+                    <div class="counting__num">480</div>
+                    <p class="counting__p">Satisfied customers</p> 
+                </div>
+                <div class="counting__2">
+                    <div class="counting__num">3850</div>
+                    <p class="counting__p">Graphic Design & Branding</p> 
+                </div>
+                <div class="counting__3">
+                    <div class="counting__num">57</div>
+                    <p class="counting__p">Years of cumulative experience</p>
+                </div>
+                <div class="counting__4">
+                    <div class="counting__num">14999</div>
+                    <p class="counting__p">Cups of coffee & even more!</p> 
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(".counting__num").counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            </script>
+        </section>
         <!----------------------------------///fin de la section compteur///----------------------------------->
         <!------------------------------début de web agency et video par"ilyas"---------------------------->
-        <section></section>
+        <section>
+            <section>
+                <div class="video_section scrollspy" >
+                    <div class="text">
+                        <h1 class="video_title">WEB COMMUNCATION AGENCY</h1>
+                        <p class="video_para">Founded in 2004, by Fayçal Toujri, the Youweb agency specializing 
+                            in communication, graphic design and website creation: corporate, 
+                            showcase, dynamic, e-commerce ...Our creative, dynamic and 
+                            passionate team puts all of its skills at your disposal to satisfy you 
+                            and deliver turnkey projects that meet your requirements.We also 
+                            provide our customers with a domain name purchase service and 
+                            hosting on servers with the configuration of professional email 
+                            accounts.In Morocco, France or Canada, we invite you to visit our 
+                            website and our customer references to get as close as possible 
+                            to our unique graphic charters that reflect the image of 
+                            the company.</p>
+                    </div> 
+                        <video width="90%" height="80%" autoplay muted>
+                            <source src="img/Intro.mp4" type="video/mp4">
+                            <source src="img/Intro.mp4" type="video/ogg">
+                        </video>
+                </div>
+            </section>
+        </section>
         <!-----------------------------------///fin de web agency et video///------------------------------------->
         <!-----------------------------début de la section services par "omar"---------------------------->
-        <section></section>
+        <section id="2" class="section3 scrollspy">
+            <h1 class="our">Our Services </h1>
+            <div class="section3-main">
+    
+    
+                <div class="website">
+                    <img class="img-center" src="img/website.png" alt="website icon">
+                    <h2> Creation of Websites
+                    </h2>
+                    <p>
+                        We create a creative design <br>
+                        for your website and put <br>
+                        in place the best technical <br>
+                        implementation.
+    
+    
+                    </p>
+                </div>
+    
+                <div class="send">
+    
+                    <img class="img-center" src="img/send.png" alt="send icon">
+                    <h2>EMAILING / SMS </h2>
+                    <p>Each of your customers <br>
+                        feels privileged,you increase<br>
+                        their feeling of trust<br>
+                        and loyalty. </p>
+                </div>
+    
+                <div class="mobile">
+    
+                    <img class="img-center" src="img/mobile.png" alt="mobile icon">
+                    <h2>AUDIOVISUAL PRODUCTION</h2>
+                    <p>Nothing is more meaningful<br>
+                        than an instutional production <br>
+                        or film for your company, <br>
+                        organization or association. </p>
+                </div>
+    
+    
+                <div  class="seo">
+    
+                    <img class="img-center" src="img/seo.png" alt="seo icon">
+                    <h2>EVENTS</h2>
+                    <p>We support you in all stages <br>
+                        of organization for the <br>
+                        smooth running and success of <br>
+                        your event.</p>
+    
+                </div>
+            </div>
+            <div class="section3-main">
+    
+    
+                <div class="manager">
+                    <img class="img-center" src="img\manager.png" alt="manager icon">
+                    <h2>SOCIAL NETWORK</h2>
+                    <p>You are quickly visible to <br>
+                        your target and you measure<br>
+                        your results while managing <br>
+                        your budget.</p>
+    
+                </div>
+                <div class="target">
+    
+                    <img class="img-center" src="img/target.png" alt="target icon">
+                    <h2>REFERENCING
+                    </h2>
+                    <p>We Optimize the performance<br>
+                        of your qite on search engines <br>
+                        research.</p>
+                </div>
+    
+    
+                <div class="marketing">
+                    <img class="img-center" src="img/marketing.png" alt="marketing icon">
+                    <h2>COMMUNICATION ALL MEDIA</h2>
+                    <p>For your company or your brand,<br>
+                        we create its visual identity<br>
+                        'logo, leaflet, poster as well <br>
+                        as all supports personalizing<br>
+                        your customer relationship.</p>
+    
+                </div>
+    
+                <div class="shopper">
+                    <img class="img-center" src="img/shopper.png" alt="shopper icon">
+    
+                    <h2>E-COMMERCE SOLUTIONS</h2>
+                    <p>
+                        We offer personalized <br>
+                        E-commerce solutions for<br>
+                        your online store.</p>
+                </div>
+ 
+    
+            </div>
+    
+    
+        </section>
         <!------------------------------------///fin de la section services parties///------------------------------------>
         <!---------------------------début de la section testimonials par "kamal"------------------------------>
-        <section></section>
+        <section id="3" class="testimonails scrollspy">
+          <div class="testimonails-container"> 
+                <div class="testimonials-sdf1">
+                  <h1 class="test-header">TESTIMONIALS</h1>
+                  <P class="test-para">They trusted our agency & We make our customers happy!</P>
+                </div>
+             
+            <div class="testimonials-sdf2">
+                <img src="img/Ellipse 1.png" alt="">
+                <div>
+                    <p class="cl1">Thomas Rousseaux</p>
+                    <p class="cl2">Manager Marrakech golf location</p>
+                </div>
+            </div>
+    
+            <div class="testimonials-sdf3">
+                <p>professional team, Thanks to the YOUWEB0
+                    team for their professionalism and competence,
+                    excellent result. We are very satisfied with
+                    the work carried out and we recommend
+                    YOUWEB.</p>
+            </div>
+     </div>
+
+
+        </section>
         <!------------------------------------///fin de la section testimonials ///------------------------------------>
         <!-----------------------début de la section portfolio par "Ilyas"---------------------->
-        <section></section>
+        <section>
+            <section>
+                <section id="4" class="section-portfolio scrollspy">
+                    <h1 class="portfolio_title">PORTFOLIO</h1>
+                    <div class="portfolio_main">
+                                <div><img src="img/Image -3.png" alt="AKSAL" class="portfolio_img"> </div>
+                                <div><img src="img/logo_maroc_-1.png" alt="Cono de Pasta" class="portfolio_img"> </div>
+                                <div><img src="img/Image -5.png" alt="BMCI" class="portfolio_img"> </div>
+                                <div><img src="img/Image -4.png" alt="Centre Régional d'Investissement" class="portfolio_img"> </div>
+                                <div><img src="img/logo_maroc_-2.png" alt="SAMAR SCHOOL" class="portfolio_img"> </div>
+                                <div><img src="img/logo_maroc_2-2f7285f835e726cfacaabdfb56ec870815438b05b8fa4c51b13794585ddc00c4.png" alt="nema" class="portfolio_img"> </div>
+                                <div><img src="img/logo_maroc_-4.png" alt="le Tarti" class="portfolio_img"> </div>
+                                <div><img src="img/logo_maroc_-5.png" alt="KID'S CLUB" class="portfolio_img"data-aos="zoom-in"> </div>
+                    </div>
+                </section>
+            </section>
         <!------------------------------------///fin de la section portfolio ///------------------------------------>
         <!-----------------------début de la section team par "kamal"---------------------->
-        <section></section>
+        <section id="5" class="team scrollspy" >
+              
+         
+              <div class="container-team">
+                  
+                  <h1 class="team-header"><b>OUR TEAM</b></h1>
+              <div class="container-team-card">
+                  
+                <div class="team-xts1">
+                   <img src="img/bobby.png" alt="BOBBY WOOD Founder/ceo">
+                   <div class="team-under-img">
+                     <div class="team-cme">BOBBY WOOD</div>
+                     <P>Founder / ceo</P>
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-behance"></i>
+                     <i class="fa fa-twitter"></i>
+                     
+                 </div>
+              </div>
+     
+             <div class="team-xts2">
+                   <img src="img/sara.png" alt="SARA BANKS Business head">
+                   <div class="team-under-img">
+                     <div class="team-cme">SARA BANKS</div>
+                     <P>Business head</P>
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-behance"></i>
+                     <i class="fa fa-twitter"></i>
+                     
+                 </div>
+              </div>
+     
+                 
+             <div class="team-xts3">
+                   <img src="img/emma.png" alt="EMMA MCDONALD Marketing head">
+                   <div class="team-under-img">
+                     <div class="team-cme">EMMA MCDON</div>
+                     <P>Marketing head</P>
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-behance"></i>
+                     <i class="fa fa-twitter"></i>
+                 </div>
+              </div>
+     
+                
+                 <div class="team-xts4">
+                   <img src="img/Chris jordan.png" alt="CHRIS JORDAN UI & UX Design">
+                   <div class="team-under-img">
+                     <div class="team-cme">CHRIS JORDAN</div>
+                     <P>UI & UX Design</P>
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-behance"></i>
+                     <i class="fa fa-twitter"></i>
+                     
+                 </div>
+              </div>
+                 
+                 <div class="team-xts5">
+                   <img src="img/walter james.png" alt="WALTER JAMES Developper">
+                   <div class="team-under-img">
+                     <div class="team-cme">WALTER JAMES</div>
+                     <P>Developper</P>
+                     <i class="fa fa-facebook"></i>
+                     <i class="fa fa-pinterest"></i>
+                     <i class="fa fa-behance"></i>
+                     <i class="fa fa-twitter"></i>
+                    
+                 </div>
+               </div>
+              </div>
+              </div>
+             
+          </section>
         <!------------------------------------///fin de la section team ///------------------------------------>
         <!-----------------------début de la section pricing par "Achraf"---------------------->
-        <section></section>
+        <section class="pricing scrollspy">
+
+    <div class="pricing__title">
+        <h1>pricing</h1>
+    </div>
+    <div class="card1">
+        <div class="card__regular">
+            <p>REGULAR
+                <br>
+                    <span class="dollar">$100</span>
+                    <br>
+                        <span class="month">
+                            per month</span>
+                    </p>
+                    <ul>
+                        <li>2 Websites</li>
+                        <li>10 Emails</li>
+                        <li>100GB storage</li>
+                        <li>1 Account</li>
+                    </ul>
+                    <a href="checkout.html">
+                        <button>buy now</button>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="card__regular">
+                    <p>PRO PACK
+                        <br>
+                            <span class="dollar">$150</span>
+                            <br>
+                                <span class="month">
+                                    per month</span>
+                            </p>
+
+                            <ul>
+                                <li>3 Websites</li>
+                                <li>15 Emails</li>
+                                <li>200GB storage</li>
+                                <li>1 Account</li>
+                            </ul>
+                            <a href="checkout.html">
+                                    <button>buy now</button>
+                                </a>
+
+                        </div>
+                    </div>
+
+                    <div class="card3">
+                        <div class="card__regular">
+                            <p>ULTIMATE
+                                <br>
+                                    <span class="dollar">$250</span>
+                                    <br>
+                                        <span class="month">
+                                            per month</span>
+                                    </p>
+
+                                    <ul>
+                                        <li>6 Websites</li>
+                                        <li>20 Emails</li>
+                                        <li>500GB storage</li>
+                                        <li>3 Account</li>
+                                    </ul>
+                                    <a href="checkout.html">
+                                            <button>buy now</button>
+                                        </a>
+
+                                </div>
+                            </div>
+
+                        </section>
         <!------------------------------------///fin de section pricing ///------------------------------------>
         <!-----------------------début de la  section Contact us  par "Achraf"---------------------->
-        <section></section>
+        <section id="6" class="Contact scrollspy">
+            <div class="container__contact">
+                <div class="Contact__title">
+                            <h1><span class="us">Contact US </span><span class="today">today</span> </h1>
+                </div>
+                <form>
+                <p>In order to launch your project , contact our agency and an expert will get in touch with you as soon as possible.</p>
+                <div id="Name">
+                    <label>Name</label>
+                    <input type="text" required>
+                </div>
+                <div id="Company">
+                    <label>Company</label>
+                    <input type="text">
+                </div>
+                <div id="Email">
+                    <label>Email Address</label>
+                    <input type="email" required>
+                </div>
+                <div id="phone">
+                    <label>Phone Number</label>
+                    <input type="text" required>
+                </div>
+                <div id="Msg">
+                    <label>Message</label>
+                    <textarea id="area" style="height:150px" required></textarea>
+                </div>
+                <div class="sub">
+                <button>submit</button>
+            </div>
+            </form>
+        </div>
+    </section>
         <!------------------------------------///fin de section contact us ///------------------------------------>
         <!-----------------------début de la  section footer  par "oumaima"---------------------->
         <footer ></footer>
+        <footer >
+            <div class="footer-container">
+
+                <div class="footer__agenceinfo__logo">
+   
+                    <img src="img/logo.png" alt="logo">
+   
+                    <div class="footer-infos">
+                        YouWeb is a web agency<br>
+                        specializing in the design<br>
+                        of websites and the creation<br>
+                        of visual identity for your<br>business.
+                    </div>
+   
+                    <div class="social__media">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-behance"></i>
+                    </div>
+   
+                </div>
+   
+                <div class="footer-contactinfo">
+   
+                    <div class="cnt__title">CONTACT INFORMATION</div>
+                    <div class="cnt__info">
+                    <span class="f_cnt_i">Adresse :</span>  Boulevard Moulay<br>Youssef,
+                    Youssoufia Maroc<br>
+                    <span class="f_cnt_i">Fax :</span> +212 524 00 00 00<br>
+                    <span class="f_cnt_i">Phone :</span> +21266666165<br>
+                    <span class="f_cnt_i">Mail :</span> info@gmail.com<br>
+                </div>
+                </div>
+
+                <div class="newsletter_btn">
+   
+   
+                    <div class="cnt__title">NEWSLETTER</div>
+                    <div class="newsletter">
+                        <div class="para__news">Join our mailing list to receive<br>all the news and announcements</div>
+                        <div>
+                        <textarea class="news__mail" placeholder="YOUR MAIL HERE"></textarea></div>
+                        <button class="subsribe__btn">SUBSCRIBE</button>
+                    </div>
+   
+   
+   
+   
+   
+                </div>
+            
+            <p class="copyright">© 2020 All right reserved,YouWeb</p>
+        </div>
+        </footer>
         <!------------------------------------------///fin de la section footer par ""oumaima"///--------------------------------------->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script>
+          $(document).ready(function(){
+      
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+              disableWeekends: true,
+              yearRange: 3
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+      
+          });
+        </script>
     </body>
 </html>

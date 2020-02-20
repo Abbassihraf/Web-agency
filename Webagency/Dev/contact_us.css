@@ -1,0 +1,217 @@
+
+.Contact{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3f72af;
+    margin-top: -20px;
+    padding-bottom:30px;
+
+}
+
+.Contact__title h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.container__contact p{
+    display: none;
+}
+
+.us{
+    color: white;
+    text-decoration: underline white;
+
+}
+
+.container__contact label{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.container__contact input{
+    padding: 20px 20px;
+    width: 90%;
+    border: 1px solid #112d4e;
+    border-radius: 4px;
+    font-weight: 900;
+}
+
+.container__contact form{
+    background-color:#dbe2ef;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+
+    
+}
+
+.container__contact button{
+    background-color: #112d4e;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#area,#Email,#Msg,#phone,#Company,#Name {
+    margin-left: 10px;
+}
+#Msg{
+    padding: 0px;
+}
+#area{
+    margin: 0px;
+    width: 90%;
+    border: 1px solid #112d4e;
+    border-radius: 4px;
+    font-weight: 900;
+    padding: 20px 20px;
+}
+
+
+@media only screen and (min-width: 1440px){
+    .container__contact{
+        margin-top: -40px;
+    }
+    .Contact__title{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+
+    .container__contact p{
+        display: block;
+        grid-column: 1/3;
+        font-size: 24px;
+        padding-left: 15px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .container__contact form{
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15% 20% 20% 45%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 20px;
+        -webkit-box-shadow: -1px 0px 29px 16px #112d4e;
+        -moz-box-shadow: -1px 0px 29px 16px #112d4e;
+        box-shadow: -1px 0px 29px 16px #112d4e;
+    }
+
+    .container__contact input{
+        padding-right: 10px;
+        padding-top: 15px;
+        border: 1px solid #112d4e;
+        border-radius: 4px;
+        font-weight: 800;
+    }
+    .sub {
+        text-transform: uppercase;
+        font-weight: bold;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        align-self: center;
+        justify-self: center;
+        cursor: pointer;
+        font-weight:900;
+    }
+
+    button.sub{
+        width: 50%;
+    }
+    #Email,#Msg,#phone,#Company,#Name{
+        padding-top: 0px;
+    }
+
+    form button:hover{
+        background-color: #3f72af;
+    }
+    #area{
+        margin: 0px;
+        width: 88.5%;
+
+}
+}
+
+@media only screen and (min-width: 768px){
+    .container__contact{
+        margin-top: -40px;
+        margin-left: 20px;
+        margin-right: 24px;
+    }
+    .Contact__title{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .container__contact p{
+        display: block;
+        grid-column: 1/3;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-align: justify;
+        padding-left: 10px;
+    }
+    .container__contact form{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15% 25% 25% 50%;
+        padding-left: 60px;
+        padding-right:60px;
+        padding-bottom: 100px;
+        -webkit-box-shadow: -1px 0px 29px 16px #112d4e;
+        -moz-box-shadow: -1px 0px 29px 16px #112d4e;
+        box-shadow: -1px 0px 29px 16px #112d4e;
+    }
+
+    .container__contact input{
+        padding-right: 10px;
+        border: 1px solid #112d4e;
+        border-radius: 4px;
+    }
+    .sub{
+        height: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        align-self: center;
+        cursor: pointer;
+        width: 95%;
+        text-align: center;
+        }
+
+    form button:hover{
+        background-color: #3f72af;
+    }
+    #area{
+        margin: 0px;
+        width: 86%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    #area{
+        margin: 0px;
+        width: 87.3%;
+    }
+}
